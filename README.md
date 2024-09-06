@@ -8,7 +8,7 @@
 - Testing the API: Initially, I faced issues with POST requests in Postman not being accepted due to incorrect JSON formatting. I overcame this by ensuring that the Book class was correctly mapped to the JSON structure being sent via the request body.
 ## 3. Sample Requests and Responses
 - Add a Book (POST Request)
-- URL: POST http://localhost:8080/api/books
+- URL: POST http://localhost:8080/books
 
 ### Request Body:
 ```
@@ -29,7 +29,7 @@
 }
 ```
 - Get All Books (GET Request)
-- URL: GET http://localhost:8080/api/books
+- URL: GET http://localhost:8080/books
 
 ### Response:
 
@@ -44,7 +44,7 @@
 ]
 ```
 - Update a Book (PUT Request)
-- URL: PUT http://localhost:8080/api/books/1
+- URL: PUT http://localhost:8080/books/1
 
 ### Request Body:
 
@@ -66,7 +66,7 @@
 }
 ```
 - Delete a Book (DELETE Request)
-- URL: DELETE http://localhost:8080/api/books/1
+- URL: DELETE http://localhost:8080/books/1
 
 ### Response:
 

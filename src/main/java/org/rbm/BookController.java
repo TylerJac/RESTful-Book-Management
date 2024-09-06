@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/books")
+@RequestMapping("/books") //maps it to this url at the beginning of all mapping requests
 public class BookController {
     @Autowired
     private BookService bookService;
